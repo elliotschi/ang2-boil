@@ -4,8 +4,8 @@ import {TodoModel} from './todo-model';
 
 export class TodoService {
   todos = [
-    new TodoModel();
-    new TodoModel();
-    new TodoModel();
+    new TodoModel('eat'),
+    new TodoModel('sleep'),
+    new TodoModel('code')
    ];
 }
