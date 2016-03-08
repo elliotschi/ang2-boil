@@ -3,4 +3,9 @@ export class TodoModel{
   // title:string = '';
 
   constructor(public title:string =''){}
+
+  toggle():void{
+    this.status =
+      this.status === 'started' ? 'completed' : 'started';
+  }
 }
