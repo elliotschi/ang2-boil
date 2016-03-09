@@ -5,9 +5,9 @@ import {Pipe} from 'angular2/core';
 })
 
 export class StartPipe {
-  transform(value) {
+  transform(value, [status]) {
     return value.filter(item =>
-      item.status === 'started'
+      item.status === status
     );
   }
 }
