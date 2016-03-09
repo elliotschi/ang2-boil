@@ -1,7 +1,9 @@
 import {Component, Input} from 'angular2/core';
+
+import {SearchPipe} from '../../search/pipes/search-pipe';
+
 import {TodoService} from '../services/todo-service';
 import {TodoItemRenderer} from './todo-item-renderer';
-import {SearchPipe} from '../../search/pipes/search-pipe';
 import {StartPipe} from '../pipes/start-pipe';
 
 @Component({
