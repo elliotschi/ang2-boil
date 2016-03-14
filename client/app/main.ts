@@ -1,5 +1,5 @@
-import {bootstrap} from "angular2/platform/browser";
-import {Component} from "angular2/core";
+import {bootstrap} from 'angular2/platform/browser';
+import {Component} from 'angular2/core';
 import {TodoInput} from './todo/components/todo-input';
 import {TodoService} from './todo/services/todo-service';
 import {TodoList} from './todo/components/todo-list';
