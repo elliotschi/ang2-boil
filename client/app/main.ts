@@ -6,6 +6,10 @@ import {TodoList} from './todo/components/todo-list';
 import {StatusSelector} from './todo/components/status-selector';
 import {SearchBox} from './search/components/search-box';
 
+import { createStore } from 'redux';
+
+const appStore = createStore();
+
 @Component({
     selector: 'app',
     directives: [TodoInput, TodoList, StatusSelector, SearchBox],
